@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.mrrobin.inputter": {
+      "version": "https://github.com/MrRobinOfficial/Unity-Inputter.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c0b2c2a16a4ac3ba5471d05ae48e922e9717a632"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
