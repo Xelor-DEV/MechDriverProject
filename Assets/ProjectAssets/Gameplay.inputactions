@@ -6,44 +6,306 @@
             "id": "7072d808-9cd4-43a8-9f39-7226c7320864",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "SteeringWheel",
                     "type": "Value",
-                    "id": "90ef5810-484a-4bf6-a8d8-07a43ca28db4",
+                    "id": "823718cb-1f36-4bb7-ba17-1c22d4d7ebe9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "e35fc8e3-a987-4641-9fe3-e6b4c8ed4ddf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Brazo Derecha",
+                    "type": "Button",
+                    "id": "dde6db69-e027-4692-8192-fe94296d2d4d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "accelerador",
+                    "type": "Value",
+                    "id": "e14a9111-bc3a-468d-9daf-75ddc41bac68",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "New action1",
+                    "name": "Shifter6",
+                    "type": "Button",
+                    "id": "0c07de1e-849c-45c9-8c0c-a30c39f43408",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L3",
+                    "type": "Button",
+                    "id": "8d16d0bc-db37-4736-8d70-6e02ed9420a0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "r2",
+                    "type": "Button",
+                    "id": "646bcb06-0879-4105-a831-029e1e119038",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RedWheel",
                     "type": "Value",
-                    "id": "79f57321-5cb6-438b-88f6-59024ce09dce",
-                    "expectedControlType": "Double",
+                    "id": "467068e9-e9e9-4044-b451-a06f9fba8ce5",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Plus button",
+                    "type": "Button",
+                    "id": "6524a6c2-42bf-4f6c-a86a-50d92014c788",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cruzeta",
+                    "type": "Value",
+                    "id": "607f30ca-234a-4570-a745-766b8f4f19b2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Triangle",
+                    "type": "Button",
+                    "id": "33c8d217-589a-47b8-9078-97296fa0233a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RedWheelButton",
+                    "type": "Button",
+                    "id": "13194588-c4cd-471c-b032-bb52a4e82cfe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PSButton",
+                    "type": "Button",
+                    "id": "699e57f0-9b01-4699-b203-289a824c191b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter7",
+                    "type": "Button",
+                    "id": "d4488172-cccf-4bd9-9d38-9ae5bac45764",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "9ce18e11-8d47-43a7-9495-c90c9a88fb17",
-                    "path": "<Logitech G29 Racing Wheel>/stick/x",
+                    "id": "e4714f6d-792a-4e20-a0bb-6a3cd349b962",
+                    "path": "<Logitech G29 Racing Wheel>/stick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "New action",
+                    "groups": ";DrivingDevices",
+                    "action": "SteeringWheel",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "cee9cae7-75ba-4249-8bf3-6b5e601f47c7",
-                    "path": "",
+                    "id": "1821fe00-fa2e-4c28-8633-ba36b8f38d1f",
+                    "path": "<Logitech G29 Racing Wheel>/leftShiftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6bd4dcad-7208-4f49-9610-1e800fc07548",
+                    "path": "<Logitech G29 Racing Wheel>/rightShiftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Brazo Derecha",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e025542c-7455-4035-b559-c729f03d59c0",
+                    "path": "<Logitech G29 Racing Wheel>/throttleAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "accelerador",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "889dd0b4-8d17-47ef-ae87-26f23032efc4",
+                    "path": "<Logitech G29 Racing Wheel>/shifter6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c02296aa-51cf-4a17-bf39-ce0ef801b951",
+                    "path": "<Logitech G29 Racing Wheel>/leftStickButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "L3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35a3bce2-ba47-4e89-8d06-1b60b521305e",
+                    "path": "<Logitech G29 Racing Wheel>/leftBumperButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "r2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "2a761077-dd30-47dd-87f6-4acfc85c5063",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action1",
+                    "action": "RedWheel",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "d64baedc-d153-4489-a629-ea6918a0aaa8",
+                    "path": "<Logitech G29 Racing Wheel>/leftTurnButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "RedWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "435b5cfd-9571-417f-ba52-cc80ebad0a6f",
+                    "path": "<Logitech G29 Racing Wheel>/rightTurnButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "RedWheel",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "10af8721-d2c1-4019-a3cb-ceb3e42edb5a",
+                    "path": "<Logitech G29 Racing Wheel>/plusButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Plus button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "152067a0-598a-496c-80f2-ddc43bce2a78",
+                    "path": "<Logitech G29 Racing Wheel>/hatSwitch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Cruzeta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80523fe5-fa0d-4c82-8160-8ebbc9ff402e",
+                    "path": "<Logitech G29 Racing Wheel>/northButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47e40d25-10dc-49af-8089-1a5fd3b330eb",
+                    "path": "<Logitech G29 Racing Wheel>/returnButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "RedWheelButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "583b809a-2420-4866-b8f5-7211b5e065c1",
+                    "path": "<Logitech G29 Racing Wheel>/homeButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "PSButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cbde4619-0b0b-411f-96b8-bcd27ffd6eff",
+                    "path": "<Logitech G29 Racing Wheel>/shifter7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter7",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
