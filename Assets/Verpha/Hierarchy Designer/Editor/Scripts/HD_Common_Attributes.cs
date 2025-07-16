@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using System;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
     internal class HD_Common_Attributes : Attribute

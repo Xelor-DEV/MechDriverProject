@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal class HD_Settings_Presets
     {

@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal class HD_Window_Rename : EditorWindow
     {

@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditor.ShortcutManagement;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal static class HD_Settings_Shortcuts
     {

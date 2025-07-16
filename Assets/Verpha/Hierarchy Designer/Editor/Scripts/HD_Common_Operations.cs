@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal static class HD_Common_Operations
     {

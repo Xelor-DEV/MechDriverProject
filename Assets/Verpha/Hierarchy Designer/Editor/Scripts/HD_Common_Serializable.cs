@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using System.Collections.Generic;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     [System.Serializable]
     internal class HD_Common_Serializable<T>

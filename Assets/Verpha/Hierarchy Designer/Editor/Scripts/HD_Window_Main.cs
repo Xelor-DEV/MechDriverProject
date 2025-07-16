@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEditor.ShortcutManagement;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal class HD_Window_Main : EditorWindow
     {

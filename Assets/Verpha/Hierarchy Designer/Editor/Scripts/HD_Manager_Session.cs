@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal class HD_Manager_Session : ScriptableSingleton<HD_Manager_Session>
     {

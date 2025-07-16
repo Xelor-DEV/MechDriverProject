@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal static class HD_Common_Resources
     {

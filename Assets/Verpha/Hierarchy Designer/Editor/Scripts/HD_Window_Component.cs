@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Reflection;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal class HD_Window_Component : EditorWindow
     {

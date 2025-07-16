@@ -1,5 +1,5 @@
 ﻿#if UNITY_EDITOR
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal static class HD_Common_Constants
     {

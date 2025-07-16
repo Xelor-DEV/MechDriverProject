@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using UnityEditor;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     [InitializeOnLoad]
     internal static class HD_Manager_Initializer

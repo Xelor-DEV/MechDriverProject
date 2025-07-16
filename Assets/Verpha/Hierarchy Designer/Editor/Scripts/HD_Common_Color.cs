@@ -3,7 +3,7 @@ using System;
 using System.Globalization;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     internal static class HD_Common_Color
     {

@@ -1,4 +1,4 @@
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     using UnityEngine;
     using UnityEngine.Events;

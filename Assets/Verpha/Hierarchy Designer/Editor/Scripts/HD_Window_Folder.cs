@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Verpha.HierarchyDesigner
+namespace HierarchyDesigner
 {
     [CustomEditor(typeof(HierarchyDesignerFolder))]
     internal class HD_Window_Folder : Editor
