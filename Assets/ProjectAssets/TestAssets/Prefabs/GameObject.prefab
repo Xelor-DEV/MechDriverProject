@@ -433,22 +433,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5142385043580344029}
         m_TargetAssemblyTypeName: TEST, Assembly-CSharp
-        m_MethodName: Steer
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 823718cb-1f36-4bb7-ba17-1c22d4d7ebe9
-    m_ActionName: 'Gameplay/Steering[/Logitech G29 Racing Wheel/stick]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5142385043580344029}
-        m_TargetAssemblyTypeName: TEST, Assembly-CSharp
         m_MethodName: Buttonxd
         m_Mode: 0
         m_Arguments:
@@ -529,22 +513,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 646bcb06-0879-4105-a831-029e1e119038
     m_ActionName: 'Gameplay/r2[/Logitech G29 Racing Wheel/leftBumperButton]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5142385043580344029}
-        m_TargetAssemblyTypeName: TEST, Assembly-CSharp
-        m_MethodName: Turn
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 5fe6f685-bdd8-4da2-8141-f2c218503935
-    m_ActionName: 'Gameplay/turn[/Logitech G29 Racing Wheel/rightTurnButton]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5142385043580344029}
@@ -659,6 +627,101 @@ MonoBehaviour:
     m_ActionId: d4488172-cccf-4bd9-9d38-9ae5bac45764
     m_ActionName: 'Gameplay/Shifter7[/Logitech G29 Racing Wheel/shifter7,/Logitech
       G29 Racing Wheel1/shifter7]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e3cfec99-65f7-428a-90df-61c8d7f027f9
+    m_ActionName: 'Gameplay/Square[/Logitech G29 Racing Wheel/westButton,/Logitech
+      G29 Racing Wheel1/westButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3c3da9f3-a1d1-4ef7-a81c-c6e6228efb35
+    m_ActionName: 'Gameplay/Circle[/Logitech G29 Racing Wheel/eastButton,/Logitech
+      G29 Racing Wheel1/eastButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 01958a4b-b3ae-46c4-b964-4c64e8b2d4bd
+    m_ActionName: 'Gameplay/Cross[/Logitech G29 Racing Wheel/southButton,/Logitech
+      G29 Racing Wheel1/southButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3ad51345-7e07-4822-aac6-85069591ec31
+    m_ActionName: 'Gameplay/R3[/Logitech G29 Racing Wheel/rightStickButton,/Logitech
+      G29 Racing Wheel1/rightStickButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2b362f78-be49-40b9-af6f-aaf6a32b7a66
+    m_ActionName: 'Gameplay/R2[/Logitech G29 Racing Wheel/rightBumperButton,/Logitech
+      G29 Racing Wheel1/rightBumperButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2c1ef97f-4780-489c-a61c-47bfa8f7024d
+    m_ActionName: 'Gameplay/MinusButton[/Logitech G29 Racing Wheel/minusButton,/Logitech
+      G29 Racing Wheel1/minusButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8d190dae-33d3-455d-8573-5fc0c771fc1d
+    m_ActionName: 'Gameplay/ShareButton[/Logitech G29 Racing Wheel/shareButton,/Logitech
+      G29 Racing Wheel1/shareButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4bb4ed80-cc98-4577-8071-05f66c34b3d3
+    m_ActionName: 'Gameplay/OptionButton[/Logitech G29 Racing Wheel/optionsButton,/Logitech
+      G29 Racing Wheel1/optionsButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 99d70e34-60c4-40f0-becb-54dc3fc438a9
+    m_ActionName: 'Gameplay/Steering[/Logitech G29 Racing Wheel/stick/x,/Logitech
+      G29 Racing Wheel1/stick/x]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3d8262ae-b2b3-4e5c-9239-9d1f389d2bbc
+    m_ActionName: 'Gameplay/Braker[/Logitech G29 Racing Wheel/brakeAxis,/Logitech
+      G29 Racing Wheel1/brakeAxis]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 14b692c7-f9b8-4487-9664-f54d2bbec1cd
+    m_ActionName: 'Gameplay/Clutch[/Logitech G29 Racing Wheel/clutchAxis,/Logitech
+      G29 Racing Wheel1/clutchAxis]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1449ed0b-1f98-4eba-acb8-5d6a66b6ecba
+    m_ActionName: 'Gameplay/Shifter 1[/Logitech G29 Racing Wheel/shifter1,/Logitech
+      G29 Racing Wheel1/shifter1]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 75afa48c-bd56-4294-9edb-a0cb3ffa27fe
+    m_ActionName: 'Gameplay/Shifter 2[/Logitech G29 Racing Wheel/shifter2,/Logitech
+      G29 Racing Wheel1/shifter2]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 51d2cdb2-8131-490b-94a5-f9a36059a139
+    m_ActionName: 'Gameplay/Shifter 3[/Logitech G29 Racing Wheel/shifter3,/Logitech
+      G29 Racing Wheel1/shifter3]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f1da64f5-9ec1-4955-b15e-2e340d92e6ef
+    m_ActionName: 'Gameplay/Shifter 4[/Logitech G29 Racing Wheel/shifter4,/Logitech
+      G29 Racing Wheel1/shifter4]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c2ae9734-22b6-4b96-a682-f886f87e0d36
+    m_ActionName: 'Gameplay/Shifter 5[/Logitech G29 Racing Wheel/shifter5,/Logitech
+      G29 Racing Wheel1/shifter5]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fd8bb73f-31f6-4113-8f49-1a81c0f5c97e
+    m_ActionName: 'UI/Navigation[/Logitech G29 Racing Wheel/hatSwitch/x,/Logitech
+      G29 Racing Wheel1/hatSwitch/x,/Keyboard/a,/Keyboard/d,/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4a26d925-8ef5-4900-89bf-1e066f9aa9cc
+    m_ActionName: 'UI/Confirm[/Logitech G29 Racing Wheel/southButton,/Logitech G29
+      Racing Wheel1/southButton,/Keyboard/enter]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b4be32d8-36f2-408a-943f-0f1e84e828fa
+    m_ActionName: 'UI/Cancel[/Logitech G29 Racing Wheel/eastButton,/Logitech G29
+      Racing Wheel1/eastButton,/Keyboard/escape]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: DrivingDevices
   m_DefaultActionMap: Gameplay

@@ -218,13 +218,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 79eb422492d1197499c2240ef629b98c, type: 3}
 --- !u!114 &66943761 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7045365060538192358, guid: 79eb422492d1197499c2240ef629b98c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7671638016786701243, guid: 79eb422492d1197499c2240ef629b98c, type: 3}
   m_PrefabInstance: {fileID: 66943760}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &66943762 stripped
@@ -263,8 +263,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   configData: {fileID: 11400000, guid: 6c5ce6285307b084d8b0ac2139b1cde5, type: 2}
   inputActions: {fileID: -944628639613478452, guid: febb0a0365e9bb6459206e04b583afd2, type: 3}
+  enableDisplayAssignment: 1
   promptText: {fileID: 1979856779}
-  repeatButton: {fileID: 66943761}
+  displayText: {fileID: 66943761}
+  navigationAction: {fileID: 2285327136306100213, guid: febb0a0365e9bb6459206e04b583afd2, type: 3}
+  confirmAction: {fileID: -3759254412576573302, guid: febb0a0365e9bb6459206e04b583afd2, type: 3}
+  cancelAction: {fileID: -7066648754364568205, guid: febb0a0365e9bb6459206e04b583afd2, type: 3}
+  axisThreshold: 0.5
 --- !u!4 &563744270
 Transform:
   m_ObjectHideFlags: 0

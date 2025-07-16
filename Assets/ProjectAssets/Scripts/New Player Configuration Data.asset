@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d282b2b58b3ee048a03cceb8c1c62a4, type: 3}
   m_Name: New Player Configuration Data
   m_EditorClassIdentifier: 
-  playerConfigs: []
+  playerConfigs:
+  - deviceId: 9
+    controlScheme: DrivingDevices
+    displayIndex: 0
+  - deviceId: 15
+    controlScheme: DrivingDevices
+    displayIndex: 1
   maxPlayers: 2
