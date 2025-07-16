@@ -6,45 +6,45 @@
             "id": "7072d808-9cd4-43a8-9f39-7226c7320864",
             "actions": [
                 {
-                    "name": "SteeringWheel",
-                    "type": "Value",
-                    "id": "823718cb-1f36-4bb7-ba17-1c22d4d7ebe9",
-                    "expectedControlType": "Vector2",
+                    "name": "D-Pad",
+                    "type": "PassThrough",
+                    "id": "607f30ca-234a-4570-a745-766b8f4f19b2",
+                    "expectedControlType": "Dpad",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Left",
+                    "name": "Triangle",
                     "type": "Button",
-                    "id": "e35fc8e3-a987-4641-9fe3-e6b4c8ed4ddf",
+                    "id": "33c8d217-589a-47b8-9078-97296fa0233a",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Brazo Derecha",
+                    "name": "Square",
                     "type": "Button",
-                    "id": "dde6db69-e027-4692-8192-fe94296d2d4d",
+                    "id": "e3cfec99-65f7-428a-90df-61c8d7f027f9",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "accelerador",
-                    "type": "Value",
-                    "id": "e14a9111-bc3a-468d-9daf-75ddc41bac68",
+                    "name": "Circle",
+                    "type": "Button",
+                    "id": "3c3da9f3-a1d1-4ef7-a81c-c6e6228efb35",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Shifter6",
+                    "name": "Cross",
                     "type": "Button",
-                    "id": "0c07de1e-849c-45c9-8c0c-a30c39f43408",
+                    "id": "01958a4b-b3ae-46c4-b964-4c64e8b2d4bd",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -60,7 +60,16 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "r2",
+                    "name": "R3",
+                    "type": "Button",
+                    "id": "3ad51345-7e07-4822-aac6-85069591ec31",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L2",
                     "type": "Button",
                     "id": "646bcb06-0879-4105-a831-029e1e119038",
                     "expectedControlType": "",
@@ -69,16 +78,43 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "RedWheel",
-                    "type": "Value",
-                    "id": "467068e9-e9e9-4044-b451-a06f9fba8ce5",
+                    "name": "R2",
+                    "type": "Button",
+                    "id": "2b362f78-be49-40b9-af6f-aaf6a32b7a66",
                     "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RedWheel",
+                    "type": "PassThrough",
+                    "id": "467068e9-e9e9-4044-b451-a06f9fba8ce5",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Plus button",
+                    "name": "RedWheelButton",
+                    "type": "Button",
+                    "id": "13194588-c4cd-471c-b032-bb52a4e82cfe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MinusButton",
+                    "type": "Button",
+                    "id": "2c1ef97f-4780-489c-a61c-47bfa8f7024d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PlusButton",
                     "type": "Button",
                     "id": "6524a6c2-42bf-4f6c-a86a-50d92014c788",
                     "expectedControlType": "",
@@ -87,27 +123,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Cruzeta",
-                    "type": "Value",
-                    "id": "607f30ca-234a-4570-a745-766b8f4f19b2",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Triangle",
+                    "name": "ShareButton",
                     "type": "Button",
-                    "id": "33c8d217-589a-47b8-9078-97296fa0233a",
+                    "id": "8d190dae-33d3-455d-8573-5fc0c771fc1d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "RedWheelButton",
+                    "name": "OptionButton",
                     "type": "Button",
-                    "id": "13194588-c4cd-471c-b032-bb52a4e82cfe",
+                    "id": "4bb4ed80-cc98-4577-8071-05f66c34b3d3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -123,7 +150,115 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Shifter7",
+                    "name": "Steering",
+                    "type": "PassThrough",
+                    "id": "99d70e34-60c4-40f0-becb-54dc3fc438a9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Accelerator",
+                    "type": "PassThrough",
+                    "id": "e14a9111-bc3a-468d-9daf-75ddc41bac68",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Braker",
+                    "type": "PassThrough",
+                    "id": "3d8262ae-b2b3-4e5c-9239-9d1f389d2bbc",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Clutch",
+                    "type": "PassThrough",
+                    "id": "14b692c7-f9b8-4487-9664-f54d2bbec1cd",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightPaddleShifterButton",
+                    "type": "Button",
+                    "id": "dde6db69-e027-4692-8192-fe94296d2d4d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftPaddleShifterButton",
+                    "type": "Button",
+                    "id": "e35fc8e3-a987-4641-9fe3-e6b4c8ed4ddf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 1",
+                    "type": "Button",
+                    "id": "1449ed0b-1f98-4eba-acb8-5d6a66b6ecba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 2",
+                    "type": "Button",
+                    "id": "75afa48c-bd56-4294-9edb-a0cb3ffa27fe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 3",
+                    "type": "Button",
+                    "id": "51d2cdb2-8131-490b-94a5-f9a36059a139",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 4",
+                    "type": "Button",
+                    "id": "f1da64f5-9ec1-4955-b15e-2e340d92e6ef",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 5",
+                    "type": "Button",
+                    "id": "c2ae9734-22b6-4b96-a682-f886f87e0d36",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 6",
+                    "type": "Button",
+                    "id": "0c07de1e-849c-45c9-8c0c-a30c39f43408",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shifter 7 / Reverse",
                     "type": "Button",
                     "id": "d4488172-cccf-4bd9-9d38-9ae5bac45764",
                     "expectedControlType": "",
@@ -135,23 +270,12 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "e4714f6d-792a-4e20-a0bb-6a3cd349b962",
-                    "path": "<Logitech G29 Racing Wheel>/stick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";DrivingDevices",
-                    "action": "SteeringWheel",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "1821fe00-fa2e-4c28-8633-ba36b8f38d1f",
                     "path": "<Logitech G29 Racing Wheel>/leftShiftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "Left",
+                    "action": "LeftPaddleShifterButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -162,7 +286,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "Brazo Derecha",
+                    "action": "RightPaddleShifterButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -173,7 +297,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "accelerador",
+                    "action": "Accelerator",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -184,7 +308,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "Shifter6",
+                    "action": "Shifter 6",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -206,12 +330,12 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "r2",
+                    "action": "L2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "1D Axis",
+                    "name": "Wheel",
                     "id": "2a761077-dd30-47dd-87f6-4acfc85c5063",
                     "path": "1DAxis",
                     "interactions": "",
@@ -250,7 +374,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "Plus button",
+                    "action": "PlusButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -261,7 +385,106 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "Cruzeta",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "69908327-9fb9-4e59-b999-ffe518673690",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "D-Pad",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a7e083f3-1433-4673-b542-d89c0524353f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "f981b4c6-3856-46ed-b22a-08894bd4a629",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "8cc81d6a-3d31-4be4-939c-172c8340204d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "4b85176a-fda9-48d9-a6cb-3baa8561720a",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "06c7715d-7864-4f99-9f48-c6dc58d3f477",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c3f20f68-7f52-49bd-88c6-8c780ff89f16",
+                    "path": "<DualShockGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53174741-a467-4306-a603-169c2a950a7d",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42b53d6c-4e6d-4876-9f12-136b76a85e66",
+                    "path": "<WebGLGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "D-Pad",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -272,6 +495,61 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2931314f-95a6-4a79-9085-2447b1ee3833",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79e26fc1-c58a-4b1b-9f22-ca6d4a7bbdcd",
+                    "path": "<AndroidGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c071acb0-822d-4253-9cdf-cce4db17a073",
+                    "path": "<DualShockGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a81f737-f3e9-47d3-be63-895647c0e877",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "40c6983a-042f-4971-8531-2887d892f34e",
+                    "path": "<WebGLGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
                     "action": "Triangle",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -305,7 +583,348 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";DrivingDevices",
-                    "action": "Shifter7",
+                    "action": "Shifter 7 / Reverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52db8cc3-4645-4fde-8682-096d46095286",
+                    "path": "<Logitech G29 Racing Wheel>/shifter1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9066b159-c424-4b82-8667-00fc6fe75bf8",
+                    "path": "<Logitech G29 Racing Wheel>/shifter2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ae2dc45-7964-4a63-aac2-98894d500d13",
+                    "path": "<Logitech G29 Racing Wheel>/shifter3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e7ba083-2e40-49f4-9f33-8abe84a239f0",
+                    "path": "<Logitech G29 Racing Wheel>/shifter4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4b9cdfd-7551-499a-935a-f7d4bc448aa0",
+                    "path": "<Logitech G29 Racing Wheel>/shifter5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Shifter 5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e24f28f-2aef-409e-8c02-1637d5d75ead",
+                    "path": "<Logitech G29 Racing Wheel>/rightStickButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "R3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "815cd3ac-770b-428b-a0d5-3ef2aa299926",
+                    "path": "<Logitech G29 Racing Wheel>/rightBumperButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "R2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f04d1a8-0fc9-4ce6-af83-84d0200e00bf",
+                    "path": "<Logitech G29 Racing Wheel>/minusButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "MinusButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0be6682c-e91f-48e3-a546-81f465cfdf32",
+                    "path": "<Logitech G29 Racing Wheel>/shareButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "ShareButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d850640-c0ae-49cd-a77d-6d70c9b84f14",
+                    "path": "<Logitech G29 Racing Wheel>/optionsButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "OptionButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1789711e-0be7-4962-b975-d40e6e247e47",
+                    "path": "<Logitech G29 Racing Wheel>/westButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f98db3d9-a0ac-4ec9-bfa7-24dffb86778c",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02cadf72-0516-42d4-b998-31e6e29afbe3",
+                    "path": "<AndroidGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03961649-7537-4cd9-ba07-adc721164789",
+                    "path": "<DualShockGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2fb3d96a-4444-4dfc-9857-9dfeba5988a7",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ebfed3bf-af78-4764-89ac-6990c601f334",
+                    "path": "<WebGLGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d73a792-166f-492e-a54c-176b4398df02",
+                    "path": "<Logitech G29 Racing Wheel>/eastButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2c821f8-12ba-4099-b585-276852d13e80",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca580ce0-a166-4adf-9379-4351e614ac19",
+                    "path": "<AndroidGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9de4fdb7-f708-4fe5-91ad-1267b66c7f3d",
+                    "path": "<DualShockGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83ea6060-eaee-45d1-bd77-891ed3f33b49",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "895e9b1c-e60e-462d-9665-b7b7e0691814",
+                    "path": "<WebGLGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Circle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6dd616f5-4789-4651-b71a-aaf5182daa0f",
+                    "path": "<Logitech G29 Racing Wheel>/southButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "87c9bd69-69f9-49c6-bc09-cc0f888ba6b6",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b838f28a-4e3f-474e-9c17-0216731db750",
+                    "path": "<AndroidGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "33b744eb-84f3-4d71-97c8-bcf99701b6ce",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8f508f3-ba29-4082-9d3c-22ae84c67610",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a5c09af-ceb1-4b85-a516-0cf9ff009fd7",
+                    "path": "<WebGLGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Cross",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4233f41a-3b92-4349-844e-a962ae66fba1",
+                    "path": "<Logitech G29 Racing Wheel>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Steering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7fc5acc6-d54b-421f-8fb5-3b9592d8fd94",
+                    "path": "<Logitech G29 Racing Wheel>/brakeAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Braker",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f265dd37-fdd7-443b-b2a1-6a751262612c",
+                    "path": "<Logitech G29 Racing Wheel>/clutchAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Clutch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -335,6 +954,37 @@
                 },
                 {
                     "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepads",
+            "bindingGroup": "Gamepads",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<AndroidGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<DualShockGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<WebGLGamepad>",
                     "isOptional": false,
                     "isOR": false
                 }
