@@ -1294,6 +1294,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "VirtualKeyboard",
+            "id": "0f114ef4-1fbb-4935-ac50-0d287bc06f0e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "6aec2fef-8fc4-4886-9b0b-c8fdea767eff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "25955b4a-f754-4294-800c-a28fd49d89a0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

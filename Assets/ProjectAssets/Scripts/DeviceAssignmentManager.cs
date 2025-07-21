@@ -1,11 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.LowLevel;
 using TMPro;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class DeviceAssignmentManager : MonoBehaviour
 {

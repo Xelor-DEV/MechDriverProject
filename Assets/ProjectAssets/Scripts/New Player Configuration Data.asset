@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: New Player Configuration Data
   m_EditorClassIdentifier: 
   playerConfigs:
-  - deviceId: 9
-    controlScheme: DrivingDevices
-    displayIndex: 0
-  - deviceId: 15
-    controlScheme: DrivingDevices
+  - deviceId: 17
+    controlScheme: Gamepads
     displayIndex: 1
+  - deviceId: 1
+    controlScheme: KeyboardAndMouse
+    displayIndex: 0
   maxPlayers: 2
