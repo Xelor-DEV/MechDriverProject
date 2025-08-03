@@ -1296,13 +1296,22 @@
             ]
         },
         {
-            "name": "VirtualKeyboard",
+            "name": "Preparation",
             "id": "0f114ef4-1fbb-4935-ac50-0d287bc06f0e",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Navigate",
+                    "type": "PassThrough",
+                    "id": "9977a679-7acf-4452-8c27-f1c740cc7ec6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Submit",
                     "type": "Button",
-                    "id": "6aec2fef-8fc4-4886-9b0b-c8fdea767eff",
+                    "id": "e988989a-c98f-4225-8f27-469e7143fa46",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -1312,14 +1321,300 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "25955b4a-f754-4294-800c-a28fd49d89a0",
-                    "path": "",
+                    "id": "47dd8325-bf91-4313-a831-15e60514d9bc",
+                    "path": "<Logitech G29 Racing Wheel>/southButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df58ca69-3007-43f9-bb1b-e5b3a7a780de",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b036017-5758-49ef-94bd-b9e2e010ce7c",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a90015fe-2b06-4dd6-b2a9-aeff8dd5254f",
+                    "path": "<AndroidGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1b9308ec-c0ac-49a7-b924-41340759a5ad",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "915fa406-662c-4a21-b90a-ee6dee69a751",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0dcdf675-4b47-4148-a388-0181a7341e00",
+                    "path": "<WebGLGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5acdd5aa-cff4-42e0-b5b0-60071b69ff61",
+                    "path": "<Logitech G29 Racing Wheel>/hatSwitch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";DrivingDevices",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "a505ab51-eba6-43de-b532-3370fe923d40",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "36e384a2-8f1e-41d3-9e7b-46d6705559d9",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "cf00b515-1cb3-4b2e-a99d-63cc681003f3",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a1756ede-28bb-4aaa-bf64-d4c542e9790c",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "e21c5b34-6d29-4afb-9424-6dc10354ace8",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8f1b1c23-c91f-42e2-9503-a04d061d6df5",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "954a838c-41f5-4f21-a795-2c6567d7cb19",
+                    "path": "<DualShockGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e659d74a-8376-4d5e-9dac-9e21900d6b5e",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48fe48ee-e04f-4db4-96ce-8b86ff85995b",
+                    "path": "<WebGLGamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e01f2356-8fb7-47a2-904b-afc104e97a62",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "913aa9a3-25b5-4a38-ba9f-a68c85d29181",
+                    "path": "<AndroidGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6ba7544-2097-4ead-b23d-2391cc1177a5",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bcfb0b5c-d5a8-44d3-98eb-9bfb429f4929",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a4f67c3-c3d5-49a4-bac8-bdf874ed35a0",
+                    "path": "<WebGLGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepads",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "DirectionalArrows",
+                    "id": "fa493edf-bd37-4455-89a8-9f6b23d30a8b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Navigate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "75eb8423-f726-4dff-aecb-8087860974a3",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "2292da16-d6b2-467e-a07a-ace7257acde2",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "9b0c0411-2d4b-4d14-80da-2e3a56a8c73c",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "6b07ff25-3045-45b0-a679-9de1c2ec6c1e",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardAndMouse",
+                    "action": "Navigate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
